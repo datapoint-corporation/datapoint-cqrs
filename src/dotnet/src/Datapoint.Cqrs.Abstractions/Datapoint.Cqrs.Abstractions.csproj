@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.0</TargetFramework>
+    <RootNamespace>Datapoint.Cqrs</RootNamespace>
+    <Authors>João Lopes</Authors>
+    <Company>Datapoint - Sistemas de Informação, Unipessoal, Lda.</Company>
+    <Product>Datapoint CQRS</Product>
+    <Description>Abstractions for Command Query Responsability Segregation.</Description>
+    <Copyright>Datapoint - Sistemas de Informação, Unipessoal, Lda.</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageProjectUrl>https://github.com/datapoint-corporation/datapoint-cqrs/</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/datapoint-corporation/datapoint-cqrs.git</RepositoryUrl>
+    <RepositoryType>GIT</RepositoryType>
+    <PackageTags>CQRS,COMMAND,QUERY,PATTERN</PackageTags>
+  </PropertyGroup>
+
+</Project>

@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.0</TargetFramework>
+    <Authors>João Lopes</Authors>
+    <Company>Datapoint - Sistemas de Informação, Unipessoal, Lda.</Company>
+    <Product>Datapoint CQRS</Product>
+    <Description>Command Query Responsability Segregation with Mediator, supporting Dependency Injection and extensible middleware based pipelines.</Description>
+    <Copyright>Datapoint - Sistemas de Informação, Unipessoal, Lda.</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/datapoint-corporation/datapoint-cqrs/</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/datapoint-corporation/datapoint-cqrs.git</RepositoryUrl>
+    <RepositoryType>GIT</RepositoryType>
+    <PackageTags>CQRS,MEDIATOR,COMMAND,QUERY,PATTERN,DI,DEPENDENCY,INJECTION</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Datapoint.Cqrs.Mediator.Abstractions\Datapoint.Cqrs.Mediator.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>

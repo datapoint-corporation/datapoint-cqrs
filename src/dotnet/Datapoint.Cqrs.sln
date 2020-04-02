@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Datapoint.Cqrs.Abstractions", "src\Datapoint.Cqrs.Abstractions\Datapoint.Cqrs.Abstractions.csproj", "{DAC06A4F-0421-4D5D-9398-505181B5584F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Datapoint.Cqrs.Mediator.Abstractions", "src\Datapoint.Cqrs.Mediator.Abstractions\Datapoint.Cqrs.Mediator.Abstractions.csproj", "{4FF30956-50DB-4D2A-83EC-326785B6CB54}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Datapoint.Cqrs.Mediator", "src\Datapoint.Cqrs.Mediator\Datapoint.Cqrs.Mediator.csproj", "{C346C015-D6EE-4E9C-854D-DB2832682C63}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Datapoint.Cqrs.Mediator.Extensions.Microsoft.DependencyInjection", "src\Datapoint.Cqrs.Mediator.Extensions.Microsoft.DependencyInjection\Datapoint.Cqrs.Mediator.Extensions.Microsoft.DependencyInjection.csproj", "{668DED40-485A-44D6-9378-835ECEFBF213}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1E78E15E-0F32-495B-AF5B-AB2B65C4A679}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAC06A4F-0421-4D5D-9398-505181B5584F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAC06A4F-0421-4D5D-9398-505181B5584F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAC06A4F-0421-4D5D-9398-505181B5584F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAC06A4F-0421-4D5D-9398-505181B5584F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FF30956-50DB-4D2A-83EC-326785B6CB54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FF30956-50DB-4D2A-83EC-326785B6CB54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FF30956-50DB-4D2A-83EC-326785B6CB54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FF30956-50DB-4D2A-83EC-326785B6CB54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C346C015-D6EE-4E9C-854D-DB2832682C63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C346C015-D6EE-4E9C-854D-DB2832682C63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C346C015-D6EE-4E9C-854D-DB2832682C63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C346C015-D6EE-4E9C-854D-DB2832682C63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{668DED40-485A-44D6-9378-835ECEFBF213}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{668DED40-485A-44D6-9378-835ECEFBF213}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{668DED40-485A-44D6-9378-835ECEFBF213}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{668DED40-485A-44D6-9378-835ECEFBF213}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DAC06A4F-0421-4D5D-9398-505181B5584F} = {1E78E15E-0F32-495B-AF5B-AB2B65C4A679}
+		{4FF30956-50DB-4D2A-83EC-326785B6CB54} = {1E78E15E-0F32-495B-AF5B-AB2B65C4A679}
+		{C346C015-D6EE-4E9C-854D-DB2832682C63} = {1E78E15E-0F32-495B-AF5B-AB2B65C4A679}
+		{668DED40-485A-44D6-9378-835ECEFBF213} = {1E78E15E-0F32-495B-AF5B-AB2B65C4A679}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC082FB2-B7AE-48E4-A993-1896E33514DD}
+	EndGlobalSection
+EndGlobal
