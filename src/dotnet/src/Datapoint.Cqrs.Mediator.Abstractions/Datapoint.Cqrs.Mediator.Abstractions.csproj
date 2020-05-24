@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard1.0</TargetFramework>
+	<TargetFramework>netcoreapp5.0</TargetFramework>
     <RootNamespace>Datapoint.Cqrs.Mediator</RootNamespace>
     <Description>Abstractions for Command Query Responsability Segregation with Mediator, supporting Dependency Injection and extensible middleware based pipelines.</Description>
     <Authors>João Lopes</Authors>
@@ -15,6 +15,7 @@
     <Product>Datapoint CQRS</Product>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Version>2.0.0</Version>
   </PropertyGroup>
 
   <ItemGroup>

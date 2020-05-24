@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard1.0</TargetFramework>
+    <TargetFramework>netcoreapp5.0</TargetFramework>
     <RootNamespace>Datapoint.Cqrs</RootNamespace>
     <Authors>João Lopes</Authors>
     <Company>Datapoint - Sistemas de Informação, Unipessoal, Lda.</Company>
@@ -15,6 +15,10 @@
     <RepositoryUrl>https://github.com/datapoint-corporation/datapoint-cqrs.git</RepositoryUrl>
     <RepositoryType>GIT</RepositoryType>
     <PackageTags>CQRS,COMMAND,QUERY,PATTERN</PackageTags>
+    <AssemblyName>Datapoint.Cqrs.Abstractions</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+    <FileVersion>2.0.0.0</FileVersion>
+    <Version>2.0.0</Version>
   </PropertyGroup>
 
 </Project>
